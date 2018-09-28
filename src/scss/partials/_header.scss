@@ -1,0 +1,11 @@
+.header{
+    margin:2%;
+    background: url(../images/img10.jpeg) center/cover no-repeat;
+    height: 90vh;
+    filter: sepia(0.7) saturate(0.7);
+
+    @media screen and(min-width:600px){
+        background: url(../images/headerBcg.jpg) center/cover no-repeat;
+    }
+}
+
