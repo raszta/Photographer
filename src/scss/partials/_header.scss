@@ -1,11 +1,136 @@
 .header{
-    margin:2%;
+    margin:2% 2% 0 2%;
     background: url(../images/img10.jpeg) center/cover no-repeat;
     height: 90vh;
     filter: sepia(0.7) saturate(0.7);
+    color:#fff;       
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  
 
     @media screen and(min-width:600px){
         background: url(../images/headerBcg.jpg) center/cover no-repeat;
     }
+
+    .header__welcome{
+        font-family: "Dancing Script";
+        text-align: center;
+        line-height: 30%;
+        text-shadow: 2px 2px 5px #000;
+        
+        @media screen and(min-width:600px){
+        line-height: 50%;
+        }
+    }
+
+    .header__title{
+        font-size: 150%;
+        @media screen and(min-width:480px){
+        font-size: 200%;
+        }
+        @media screen and(min-width:768px){
+        font-size: 250%;
+        }
+    }
+
+    .header__title--1{
+         font-size: 100%;
+        @media screen and(min-width:480px){
+        font-size: 150%;
+        }
+        @media screen and(min-width:768px){
+        font-size: 200%;
+        }
+    }
+
+    .header__hero{
+        text-align: center;
+        font-family: "Playfair Display";
+    }
+
+    .hero__title{
+         font-size: 200%;
+         text-shadow: 2px 2px 5px #000;
+
+        @media screen and(min-width:480px){
+        font-size: 300%;
+        }
+        @media screen and(min-width:768px){
+        font-size: 400%;
+        }
+    }
+
+     .hero__title:after{
+        content:'';
+        width: 15%;
+        height:0.6%;
+        background: #fff;
+        position:absolute;
+        top:55%;
+        left:42%;
+        
+        @media screen and(min-width:480px){
+        top:60%;
+        }
+
+        @media screen and(min-width:600px){
+        top:58%;
+        }
+
+        @media screen and(min-width:768px){
+         top:59%;
+        }
+        @media screen and(min-width:1024px){
+         top:57%;
+        }
+     }
+
+     .header__description{
+        width:50%;
+        font-family: "Raleway";
+        text-align: center;
+        font-size: 80%;
+        text-shadow: 2px 2px 5px #000;
+
+        @media screen and(min-width:768px){
+       font-size: 110%;
+        }
+     }
 }
 
+ .nav{
+    margin: 0 2% 0 2%;
+    max-width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #838181;
+
+    .nav__logo{
+        font-family: "Dancing Script";
+    }
+
+     .nav__list{
+         list-style: none;
+         display:flex;
+     }
+
+     .nav__link{
+         text-decoration: none;
+         color: #838181;
+         text-transform: uppercase;
+         margin-right: 0.4em;
+         font-size: 50%;
+          text-align: center;
+
+         @media screen and(min-width:480px){
+        margin-right: 1em;
+        font-size: 120%;
+        }
+     }
+
+     .nav-link:last-child{
+         margin-right: 0;
+     }
+}
