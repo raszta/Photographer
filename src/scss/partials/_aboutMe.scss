@@ -1,10 +1,15 @@
  .aboutMe{
-    margin: 5% 2% 5% 2%;
+    height:25vh;
+    margin: 15% 2% 15% 2%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #5a5957;
     text-align: center;
+
+    @media screen and(min-width:1024px){
+    margin: 10% 2% 10% 2%;
+    }
 
     .aboutMe__container{
     display: flex;
@@ -14,46 +19,44 @@
     }
 
     .aboutMe__title{
-        text-transform: uppercase;
-        font-size: 150%;
-        @media screen and(min-width:600px){
-        font-size: 200%;
-        position:relative;
+    text-transform: uppercase;
+    font-size: 150%;
+    @media screen and(min-width:600px){
+    font-size: 200%;
+    position:relative;
     }
     }
     .aboutMe__title::after{
-        content: '';
-        position:absolute;
-        bottom:-1em;
-        left:38%;   
-        height: 0.1em;
-        width:23%;
-        background: #d07c7c;
+    content: '';
+    position:absolute;
+    bottom:-1.6em;
+    left:38%;   
+    height: 0.1em;
+    width:23%;
+    background: #d07c7c;
 
-        @media screen and(min-width:320px){
-         bottom:-2.2em;
-        }
-        @media screen and(min-width:360px){
-         bottom:-1.7em;
-        }
-        @media screen and(min-width:480px){
-        bottom:-5%;
-        }
-        @media screen and(min-width:600px){
-          bottom:-20%;  
-        }
-        @media screen and(min-width:1024px){
-        bottom:-40%;
-        }
+    @media screen and(min-width:360px){
+    bottom:-2.2em;
+    }
+    @media screen and(min-width:480px){
+    bottom:-3.7em;
+    }
+    @media screen and(min-width:600px){
+    bottom:-20%;  
+    }
+    @media screen and(min-width:1024px){
+    bottom:-40%;
+    }
     }
 
     .aboutMe__text{
-        font-size: 75%;
-        width:65%;
-        color: #848282;
-        font-family: "Raleway";
-        @media screen and(min-width:600px){
-        font-size: 100%;
+    font-size: 75%;
+    width:65%;
+    color: #848282;
+    font-family: "Raleway";
+    font-weight: 300;
+    @media screen and(min-width:600px){
+    font-size: 100%;
     }
     }
  }
