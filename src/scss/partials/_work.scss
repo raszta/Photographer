@@ -96,6 +96,7 @@
     .gallery__item{
     margin: 0.3rem;
     position:relative;
+    overflow: hidden;
 
         @media screen and(min-width:600px){
          margin: 0.3rem;
@@ -108,6 +109,7 @@
         width:100%;
         height: 100%;
         display:block; 
+        transition:all 1s ease-in-out;
     }
 
     .button__container{
@@ -136,6 +138,11 @@
 
     .gallery_image:hover{
         filter: grayscale(0.15) saturate(1); 
+    }
+    .gallery__item:hover .gallery_image{
+        @media screen and(min-width:600px){
+        transform: scale(1.2);
+        }
     }
 
     .move-3{
@@ -202,6 +209,10 @@
         width: 13rem;
         height: 3.5rem;
         background-color: #cf7b7b;
-       
+        box-shadow: 2px 2px  2px #000;
     }
+
+      .work__button:hover{       
+        box-shadow: 4px 4px  4px #000;
+      }
 }
