@@ -1,0 +1,43 @@
+ .footer{
+        text-align: center;
+        line-height: 30%;
+        text-shadow: 2px 2px 5px #000;
+        
+        @media screen and(min-width:600px){
+        line-height: 80%;
+        }
+    
+
+    .footer__title{
+         font-family: "Dancing Script";
+        font-size: 100%;
+
+        @media screen and(min-width:768px){
+        font-size: 190%;
+        }
+    }
+
+    .footer__title--1{
+         font-family: "Dancing Script";
+         font-size: 90%;
+
+        @media screen and(min-width:768px){
+        font-size: 150%;
+        }
+    }
+
+    .footer__end{
+        font-size: 90%;
+        color: #848282;
+        font-family: "Raleway";
+        font-weight: 300;
+    }
+
+    .footer__angle{
+        margin:2rem auto;
+    }
+    .angle{
+        color: #838181;
+        font-size: 250%;
+    }
+}
