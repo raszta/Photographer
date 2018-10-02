@@ -36,8 +36,12 @@
     .footer__angle{
         margin:2rem auto;
     }
-    .angle{
+    .angle{        
+        font-size: 300%;
+    }
+
+    .angle__link{
+        text-decoration:none;
         color: #838181;
-        font-size: 250%;
     }
 }

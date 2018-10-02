@@ -116,8 +116,8 @@
     </section>
 
     <section class="video" id="video">
-        <div class="container">
-            <video class="video__movie" loop muted>
+        <div class="container full-screen">
+            <video class="video__movie"  muted>
             <source src="images/video.mp4" type="video/mp4">
             Your browser does not support the video tag.
             </video>
@@ -144,25 +144,29 @@
     </section>
 
     <section class="contact" id="contact">
-        <div class="contact__welcome">
-            <h2 class="follow__title">Contact me</h2>
-            <p class="contact__text">Claritas est etiam processus dynamicus qui sequitor</p>
+        <div class="container__filter"></div>
+        <div class="contact__content">
+            <div class="contact__welcome">
+                <h2 class="contact__title">Contact me</h2>
+                <p class="contact__text">Claritas est etiam processus dynamicus qui sequitor</p>
+            </div>
+            <form action="" class="contact__form">
+                <label for="name" class="input__label">Name</label>
+                <input type="text" name="name" id="name" placeholder="Your name*" class="input__text">
+                <label for="email" class="input__label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Your e-mail address*" class="input__text">
+                <label for="message" class="input__label">Message</label>
+                <textarea name="message" id="message" cols="10" rows="10" placeholder="Your message..." class="input__message"></textarea>
+                <p class="form__text">All fields marked with an asterisk (*) are required</p>
+                <input type="submit" value="Send" class="input__send">
+            </form>
         </div>
-        <form action="" class="contact__form">
-            <label for="name" class="input__label">Name</label>
-            <input type="text" name="name" id="name" placeholder="Yor name...">
-            <label for="email" class="input__label">Email</label>
-            <input type="email" name="email" id="email" placeholder="Yor e-mail address...">
-            <label for="message" class="input__label">Message</label>
-            <textarea name="message" id="message" cols="10" rows="20" placeholder="Yor message..."></textarea>
-            <p class="form__text">All fields marked with an asterisk (*) are required</p>
-            <input type="submit" value="Send">
-        </form>
+        
     </section>
 
     <footer class="footer">
         <div class="footer__angle">
-            <div class="angle">^</div>
+            <div class="angle"><a href="#header" class="angle__link">^</a></div>
         </div>
         <div class="footer__welcome">
             <h2 class="footer__title">MariaAnna</h2>
