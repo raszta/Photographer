@@ -49,4 +49,35 @@
         bottom:-40%;
         }
     }
+
+    .slider__dots{
+        height:5rem;
+        width:100%;
+        text-align: center;
+    }
+
+    .slider__gallery{
+        margin:5% 0;
+    }
+
+    .dot__el{
+        display:inline-block;
+        height:0.8rem;
+        width:0.8rem;
+        background: rgb(167, 159, 159);
+        text-align: center;
+        cursor:pointer;
+        margin: 0 0.2rem;
+        border-radius: 50%;
+    }
+    .active,  .dot__el:hover{        
+         background:#eea5a5;
+        height:1rem;
+        width:1rem;
+    }
+
+}
+
+.show{
+    display:block;
 }

@@ -1,23 +1,41 @@
 .contact{
     height:65vh;
-    margin: 15% 2% 15% 2%;
+    margin: 10% 2% 10% 2%;
     color: #5a5957;
     text-align: center;
     position:relative;
+    @media screen and(min-width:360px){
+    height:55vh;
+    }
+    @media screen and(min-width:400px){
+    height:45vh;
+    }
+    @media screen and(min-width:600px){
+    height:65vh;
+    }
     @media screen and(min-width:1024px){
-    margin: 10% 2% 10% 2%;
-    height:80vh;
+    margin: 7% 2% 7% 2%;
+    height:77vh;
     }
 
     .container__filter{
-    background: url(../images/img6.jpeg) center/cover no-repeat;
+        background: url(../images/img6.jpeg) center/cover no-repeat;
         filter:opacity(0.3);
         z-index: 1;
         height:65vh;
         width:100%;
         position:absolute;
+        @media screen and(min-width:360px){
+        height:55vh;
+        }
+        @media screen and(min-width:400px){
+        height:45vh;
+        }
+        @media screen and(min-width:600px){
+        height:65vh;
+        }
         @media screen and(min-width:1024px){
-        height:80vh;
+        height:77vh;
         }
     }
 
@@ -115,34 +133,34 @@
     }
 
     .input__text{
-        height:1.5rem;
-        padding: 2% 0 0 3%;
-        font-size: 80%;
-        margin:0.2rem 0;
+    height:1.5rem;
+    padding: 2% 0 0 3%;
+    font-size: 80%;
+    margin:0.2rem 0;
 
     @media screen and(min-width:600px){
     margin:0.5rem 0;
-     height:3.5rem;
-     font-size: 120%;
+    height:3rem;
+    font-size: 120%;
     }
     }
 
     .input__message{
-        padding: 2% 0 0 3%;
-        font-size: 80%;
-        margin:0.5rem 0;
-        resize: none;
-        height:4rem;
+    padding: 2% 0 0 3%;
+    font-size: 80%;
+    margin:0.5rem 0;
+    resize: none;
+    height:4rem;
 
     @media screen and(min-width:600px){
-     font-size: 120%;
-     height:8rem;
-    }
+    font-size: 120%;
+    height:10rem;
+    }   
     }
 
     .form__text{
-        font-size: 55%;
-         @media screen and(min-width:600px){
+    font-size: 55%;
+    @media screen and(min-width:600px){
      font-size: 100%;
     }
     }
