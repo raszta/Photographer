@@ -110,10 +110,10 @@
     }
 
     ::placeholder{
-        padding: 0 0 0 3%;
+        padding: 0 0 0 1%;
     }
 
-    .input__send{       
+    .input__send{
         text-transform: uppercase;
         font-size: 80%;
         color:#fff;
@@ -128,13 +128,13 @@
         }
     }
 
-    .input__send:hover{       
+    .input__send:hover{
     box-shadow: 4px 4px  4px #000;
     }
 
     .input__text{
     height:1.5rem;
-    padding: 2% 0 0 3%;
+    padding: 0 0 0 3%;
     font-size: 80%;
     margin:0.2rem 0;
 
